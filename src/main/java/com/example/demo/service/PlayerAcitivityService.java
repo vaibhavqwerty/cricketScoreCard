@@ -16,10 +16,13 @@ public class PlayerAcitivityService implements PlayerActivityInterface {
         this.player=player;
 
 
-        this.player.setRuns(this.player.getRuns()+runs);
 
-        if(!isExtra)
-        addBall();
+
+        if(!isExtra){
+            this.player.setRuns(this.player.getRuns()+runs);
+            addBall();
+        }
+
 
         if(runs==4)
             addFour();

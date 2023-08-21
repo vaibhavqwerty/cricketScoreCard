@@ -107,6 +107,9 @@ public class TeamActivityService implements TeamActivityInterface {
     private void addBall(){
         team.setBallsPlayed(team.getBallsPlayed()+1);
 
+        if(team.getBallsPlayed()%6==0)
+            changeStrike();
+
     }
 
     private void changeStrike(){
@@ -133,7 +136,7 @@ public class TeamActivityService implements TeamActivityInterface {
 
         team.setListOfPlayers(tempList);
 
-        if(i%2!=0){
+        if(i%2!=0 && !isExtra){
             changeStrike();
         }
 

@@ -1,6 +1,13 @@
+com/example/demo/dto/Player.class
+com/example/demo/interfaces/TeamActivityInterface.class
+com/example/demo/controller/GameController.class
+com/example/demo/service/GameActivityService.class
+com/example/demo/dto/Team.class
+com/example/demo/controller/TeamController.class
+com/example/demo/interfaces/PlayerActivityInterface.class
+com/example/demo/dto/Game.class
 com/example/demo/DemoApplication.class
 com/example/demo/configuration/DatabaseConfiguration.class
-com/example/demo/configuration/GoogleAuthorizationConfig.class
-com/example/demo/configuration/CorsConfig.class
-com/example/demo/controller/SheetController.class
-com/example/demo/service/GoogleSheetsService.class
+com/example/demo/dto/ScoreCard.class
+com/example/demo/service/TeamActivityService.class
+com/example/demo/service/PlayerAcitivityService.class
